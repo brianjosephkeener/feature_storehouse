@@ -11,7 +11,7 @@ namespace MyRevConnect.Data.Models
     public class Context : DbContext
     {
         public Context(DbContextOptions options) : base(options) { }
-        public DbSet<Clock>? Clocks { get; set; }
+        public DbSet<timedEmail>? timedEmails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -21,7 +21,7 @@ namespace MyRevConnect.Data.Models
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Clock>(entity =>
+            modelBuilder.Entity<timedEmail>(entity =>
             {
                 entity.HasKey(e => e.Id);
             });

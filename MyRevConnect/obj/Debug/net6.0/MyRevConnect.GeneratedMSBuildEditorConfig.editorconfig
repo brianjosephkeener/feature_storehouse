@@ -8,37 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyRevConnect
 build_property.RootNamespace = MyRevConnect
-build_property.ProjectDir = C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect\
+build_property.ProjectDir = C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect
+build_property.MSBuildProjectDirectory = C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/Home/Index.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Features/Timed_Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZXNcVGltZWRfRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/Home/Privacy.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/Shared/Error.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/_ViewImports.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/_ViewStart.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Brian Keener/Desktop/MyRev/MyRevConnect/Views/Shared/_Layout.cshtml]
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4kmqgi19xd

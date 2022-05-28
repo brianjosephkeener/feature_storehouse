@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sjpTv38NWo0fYHPVC3J44y7xq70suqf+SmwxTI4nfsLkGzNawrSzyLwtmDmszKjs8RZf16CrNAbyXJ6y6qB8Zg==",
+  "dgSpecHash": "x4VhDqPxPbZvsylL+fPstjvsxD2p++z4+MDUN/ps8faSfjzzSY/WJ1TdHKWMXo4FsYUpBMS4plcE/+mHG0fZgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\MyRevConnect\\MyRevConnect.csproj",
+  "projectFilePath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\MyRevConnect.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian Keener\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Brian Keener\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

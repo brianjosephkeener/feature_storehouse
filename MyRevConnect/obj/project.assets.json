@@ -6840,11 +6840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\MyRevConnect\\MyRevConnect.csproj",
+      "projectUniqueName": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\MyRevConnect.csproj",
       "projectName": "MyRevConnect",
-      "projectPath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\MyRevConnect\\MyRevConnect.csproj",
+      "projectPath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\MyRevConnect.csproj",
       "packagesPath": "C:\\Users\\Brian Keener\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\MyRevConnect\\obj\\",
+      "outputPath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Brian Keener\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyRevConnect.Data.Models
 {
-    public class Clock
+    public class timedEmail
     {
         [Key]
         public int Id { get; set; }
