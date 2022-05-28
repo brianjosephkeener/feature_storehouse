@@ -1,0 +1,14 @@
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\bin\Debug\net6.0\MyRevConnect.Data.deps.json
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\bin\Debug\net6.0\MyRevConnect.Data.dll
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\bin\Debug\net6.0\MyRevConnect.Data.pdb
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.csproj.AssemblyReference.cache
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.AssemblyInfoInputs.cache
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.AssemblyInfo.cs
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.csproj.CoreCompileInputs.cache
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.dll
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\refint\MyRevConnect.Data.dll
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.pdb
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\ref\MyRevConnect.Data.dll
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\bin\Debug\net6.0\MyRevConnect.Data.runtimeconfig.json
+C:\Users\Brian Keener\Desktop\MyRev\MyRevConnect.Data\obj\Debug\net6.0\MyRevConnect.Data.genruntimeconfig.cache
