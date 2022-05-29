@@ -154,3 +154,6 @@ C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\ne
 C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\net6.0\MyRevConnect.pdb
 C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\net6.0\MyRevConnect.genruntimeconfig.cache
 C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\net6.0\ref\MyRevConnect.dll
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\net6.0\MyRevConnect.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

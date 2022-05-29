@@ -2,6 +2,7 @@
 using MyRevConnect.Models;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Http.Features;
+using MyRevConnect.Data.Models;
 
 namespace MyRevConnect.Controllers
 {
@@ -13,16 +14,16 @@ namespace MyRevConnect.Controllers
             _logger = logger;
         }
         [HttpGet]
-        [Route("clock")]
+        [Route("timedemail")]
         public IActionResult timedEmailPage()
         {
-            // DEVELOPMENT NOTES
-            // ::1 is the actualy IP. It is an ipv6 loopback address (i.e. localhost).
+            // ::1 is the actual IP. It is an ipv6 loopback address (i.e. localhost).
             // if using ipv4 it would be 127.0.0.1
             var remoteIpAddress = Request.HttpContext.Connection.RemoteIpAddress;
             ViewBag.RemoteIpAddress = remoteIpAddress;
             return View("~/Views/Features/Timed_Email.cshtml");
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

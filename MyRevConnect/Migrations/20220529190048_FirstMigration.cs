@@ -14,7 +14,7 @@ namespace MyRevConnect.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Clocks",
+                name: "timedEmails",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -33,7 +33,7 @@ namespace MyRevConnect.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Clocks", x => x.Id);
+                    table.PrimaryKey("PK_timedEmails", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
         }
@@ -41,7 +41,7 @@ namespace MyRevConnect.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Clocks");
+                name: "timedEmails");
         }
     }
 }

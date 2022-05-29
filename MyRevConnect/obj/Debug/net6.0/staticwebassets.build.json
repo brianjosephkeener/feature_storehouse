@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "22Jogrj1TzAmmo7vaEI2vQPf6kNso96nuKVf1dqFqg4=",
+  "Hash": "wCwkD56v54aUAiwEFfUu7kx5bxdM/F36iP1VlwnY3G8=",
   "Source": "MyRevConnect",
   "BasePath": "_content/MyRevConnect",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\wwwroot\\js\\timedemail.js",
+      "SourceId": "MyRevConnect",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\wwwroot\\",
+      "BasePath": "_content/MyRevConnect",
+      "RelativePath": "js/timedemail.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\timedemail.js"
     }
   ]
 }

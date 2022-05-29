@@ -2,3 +2,17 @@
 
 <h2>Your connected ip address is: @ViewBag.RemoteIpAddress</h2>
 
+<form action="https://localhost:7145/api/timedemail" method="post">
+    <label for="receiver">Email: </label>
+    <input type="email" name="receiver" placeholder="sendme@gmail.com"/>
+    <label for="subjectLine">Subject: </label>
+    <input type="text" maxlength="255" name="subjectLine"/>
+    <label for="body">Email Body: </label>
+    <textarea rows="1" cols="10" name="body"></textarea>
+    <label for="timeToSend">Time To Be Sent: </label>
+    <input type="datetime-local" name="timeToSend"/>
+    <input type="hidden" name="ipAddress" value="@ViewBag.RemoteIpAddress"/>
+    <input type="submit" value="Submit"/>
+</form>
+
+<script src="~/js/site.js" asp-append-version="true"></script>

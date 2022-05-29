@@ -19,9 +19,9 @@ namespace MyRevConnect.Migrations
                 .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("MyRevConnect.Data.Models.Clock", b =>
+            modelBuilder.Entity("MyRevConnect.Data.Models.timedEmail", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
@@ -43,7 +43,8 @@ namespace MyRevConnect.Migrations
                     b.Property<string>("ipAddress")
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime>("time")
+                    b.Property<DateTime?>("time")
+                        .IsRequired()
                         .HasColumnType("datetime(6)");
 
                     b.Property<DateTime?>("updatedAt")
@@ -51,7 +52,7 @@ namespace MyRevConnect.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clocks");
+                    b.ToTable("timedEmails");
                 });
 #pragma warning restore 612, 618
         }
