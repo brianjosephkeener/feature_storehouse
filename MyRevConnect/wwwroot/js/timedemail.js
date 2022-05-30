@@ -3,7 +3,6 @@
 
 // Write your JavaScript code.
 
-console.log("HELLO FUCKER");
 
 document.addEventListener('DOMContentLoaded', () => {
     document
@@ -18,7 +17,7 @@ function handleForm(ev) {
     let fd = new FormData(myForm);
 
     //add more things that were not in the form
-    fd.append('api-key', 'myApiKey');
+    // fd.append('api-key', 'myApiKey');
 
     //look at all the contents
     for (let key of fd.keys()) {
