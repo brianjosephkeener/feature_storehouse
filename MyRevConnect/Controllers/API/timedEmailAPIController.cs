@@ -70,7 +70,7 @@ namespace MyRevConnect.API
                     Password = _config["emailpassword"]
                 }
             };
-            MailAddress FromEmail = new MailAddress("brian120496@gmail.com", "Timed Email");
+            MailAddress FromEmail = new MailAddress("brian120496@gmail.com", "Feature Storehouse");
             MailAddress ToEmail = new MailAddress(receiver);
             MailMessage Message = new MailMessage()
             {
