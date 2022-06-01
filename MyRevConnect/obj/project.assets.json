@@ -11,6 +11,21 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
+      "EcoCore/7.0.0.14070": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Eco.Handles.dll": {},
+          "lib/net40/Eco.Interfaces.dll": {},
+          "lib/net40/Eco.LinqExtender.dll": {},
+          "lib/net40/MDriven.Net.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {},
+          "lib/net40/Eco.Interfaces.dll": {},
+          "lib/net40/Eco.LinqExtender.dll": {},
+          "lib/net40/MDriven.Net.Http.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -2056,6 +2071,22 @@
         "lib/netstandard2.0/BouncyCastle.Crypto.xml",
         "lib/xamarinios/BouncyCastle.Crypto.dll",
         "lib/xamarinios/BouncyCastle.Crypto.xml"
+      ]
+    },
+    "EcoCore/7.0.0.14070": {
+      "sha512": "DuNC4b/GsGNCJlcDa53D1ExarcC6gytJ8ZqdKEoAlyJmeYL3hI6Nu2SFQ1l9510kAth0vQmCuEbY/hD5qgS2sA==",
+      "type": "package",
+      "path": "ecocore/7.0.0.14070",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EcoCore.nuspec.org",
+        "ecocore.7.0.0.14070.nupkg.sha512",
+        "ecocore.nuspec",
+        "lib/net40/Eco.Handles.dll",
+        "lib/net40/Eco.Interfaces.dll",
+        "lib/net40/Eco.LinqExtender.dll",
+        "lib/net40/MDriven.Net.Http.dll"
       ]
     },
     "EntityFramework/6.4.4": {
@@ -6954,6 +6985,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EcoCore >= 7.0.0.14070",
       "Microsoft.EntityFrameworkCore >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.5",
       "MySql.Data >= 8.0.29",
@@ -7006,6 +7038,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "EcoCore": {
+            "target": "Package",
+            "version": "[7.0.0.14070, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.5, )"
@@ -7076,6 +7112,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EcoCore 7.0.0.14070' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EcoCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

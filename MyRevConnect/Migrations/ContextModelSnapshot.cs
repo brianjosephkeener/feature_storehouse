@@ -30,8 +30,7 @@ namespace MyRevConnect.Migrations
 
                     b.Property<string>("emailAddress")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("emailBody")
                         .HasColumnType("longtext");
@@ -39,6 +38,9 @@ namespace MyRevConnect.Migrations
                     b.Property<string>("emailHeader")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<bool>("emailSent")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<string>("ipAddress")
                         .HasColumnType("longtext");

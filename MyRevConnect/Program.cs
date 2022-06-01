@@ -1,6 +1,8 @@
 using MyRevConnect.Data.Models;
 using Microsoft.OpenApi.Models;
-
+using MyRevConnect.API;
+using System.Timers;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,4 +42,24 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+TimedChecker.MethodCheck();
 app.Run();
+
+class TimedChecker
+{
+    public static System.Timers.Timer aTmr = new System.Timers.Timer(60000);
+
+    public static void MethodCheck()
+    {
+        aTmr.Elapsed += ATmr_Elapsed;
+        aTmr.Enabled = true;
+        aTmr.AutoReset = true;
+        aTmr.Start();
+    }
+    public static async void ATmr_Elapsed(object sender, ElapsedEventArgs e)
+    {
+        string url = @"https://localhost:7145/api/timedemail/checkstatus";
+        using var client = new HttpClient();
+        var result = await client.GetAsync(url);
+    }
+}

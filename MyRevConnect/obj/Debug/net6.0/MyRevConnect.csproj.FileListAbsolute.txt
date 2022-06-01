@@ -157,3 +157,7 @@ C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\ne
 C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\obj\Debug\net6.0\MyRevConnect.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Eco.Handles.dll
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Eco.Interfaces.dll
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\Eco.LinqExtender.dll
+C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect\bin\Debug\net6.0\MDriven.Net.Http.dll

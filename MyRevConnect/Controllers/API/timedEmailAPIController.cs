@@ -6,6 +6,8 @@ using System.Diagnostics;
 using MyRevConnect.Data.Models;
 using System.Net.Mail;
 using System.Net;
+using System.Timers;
+
 
 namespace MyRevConnect.API
 {
@@ -22,6 +24,7 @@ namespace MyRevConnect.API
             _logger = logger;
             _context = context;
             _config = config;
+            
         }
 
         [HttpGet]
@@ -35,16 +38,43 @@ namespace MyRevConnect.API
         {
             return _context.timedEmails.FirstOrDefault(x => x.ipAddress == ipAddress);
         }
+        [HttpGet]
+        [Route("checkstatus")]
+        public void CheckEmails()
+        {
+            List<timedEmail> timedEmails = _context.timedEmails.Where(x => x.time <= DateTime.Now && x.emailSent == false).OrderByDescending(x => x.time).ToList();
+            if(timedEmails.Count > 0)
+            {
+                for (int i = 0; i < timedEmails.Count; i++)
+                {
+                    SendEmail(timedEmails[i].emailAddress, timedEmails[i].emailHeader, timedEmails[i].emailBody);
+                    timedEmails[i].emailSent = true;
+                    timedEmails[i].updatedAt = DateTime.Now;
+                    _context.Update(timedEmails[i]);
+                }
+                _context.SaveChanges();
+            }
 
+        }
 
         [HttpPost]
     public async Task<StatusCodeResult> PostNewEmail(timedEmail timedEmailDTO)
         {
             try
             {
+                // check if the time is before or equal to now then send email
+                // else, we only add the timedEmailDTO for later
+                if (timedEmailDTO.time <= DateTime.Now)
+                {
+                    SendEmail(timedEmailDTO.emailAddress, timedEmailDTO.emailHeader, timedEmailDTO.emailBody);
+                    timedEmailDTO.emailSent = true;
+                    _context.Add(timedEmailDTO);
+                    _context.SaveChanges();
+                    return StatusCode(200);
+                }
+                timedEmailDTO.emailSent = false;
                 _context.Add(timedEmailDTO);
                 _context.SaveChanges();
-                SendEmail(timedEmailDTO.emailAddress, timedEmailDTO.emailHeader, timedEmailDTO.emailBody);
                 return StatusCode(200);
             }
             catch (Exception ex)

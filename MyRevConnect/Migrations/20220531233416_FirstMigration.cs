@@ -19,7 +19,7 @@ namespace MyRevConnect.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    emailAddress = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: false)
+                    emailAddress = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     time = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     emailBody = table.Column<string>(type: "longtext", nullable: true)
@@ -28,6 +28,7 @@ namespace MyRevConnect.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ipAddress = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    emailSent = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     createdAt = table.Column<DateTime>(type: "datetime(6)", nullable: true),
                     updatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: true)
                 },

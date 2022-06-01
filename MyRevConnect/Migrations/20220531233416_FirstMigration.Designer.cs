@@ -11,7 +11,7 @@ using MyRevConnect.Data.Models;
 namespace MyRevConnect.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220529190048_FirstMigration")]
+    [Migration("20220531233416_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,8 +32,7 @@ namespace MyRevConnect.Migrations
 
                     b.Property<string>("emailAddress")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("emailBody")
                         .HasColumnType("longtext");
@@ -41,6 +40,9 @@ namespace MyRevConnect.Migrations
                     b.Property<string>("emailHeader")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<bool>("emailSent")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<string>("ipAddress")
                         .HasColumnType("longtext");

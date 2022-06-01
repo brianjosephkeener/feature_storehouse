@@ -12,7 +12,6 @@ namespace MyRevConnect.Data.Models
         [Key]
         public int? Id { get; set; }
         [Required]
-        [MaxLength(255)]
         public string? emailAddress { get; set; }
         [Required]
         public DateTime? time { get; set; }
@@ -20,6 +19,7 @@ namespace MyRevConnect.Data.Models
         [Required]
         public string? emailHeader { get; set; }
         public string? ipAddress { get; set; }
+        public bool? emailSent { get; set; }
         public DateTime? createdAt { get; set; } = DateTime.Now;
         public DateTime? updatedAt { get; set; } = DateTime.Now;
 

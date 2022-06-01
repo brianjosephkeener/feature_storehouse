@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MyRevConnect/1.0.0": {
         "dependencies": {
+          "EcoCore": "7.0.0.14070",
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.Design": "6.0.5",
           "MySql.Data": "8.0.29",
@@ -29,6 +30,26 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "assemblyVersion": "1.8.5.0",
             "fileVersion": "1.8.19031.1"
+          }
+        }
+      },
+      "EcoCore/7.0.0.14070": {
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {
+            "assemblyVersion": "7.0.0.14070",
+            "fileVersion": "7.0.0.14070"
+          },
+          "lib/net40/Eco.Interfaces.dll": {
+            "assemblyVersion": "7.0.0.14070",
+            "fileVersion": "7.0.0.14070"
+          },
+          "lib/net40/Eco.LinqExtender.dll": {
+            "assemblyVersion": "7.0.0.14070",
+            "fileVersion": "7.0.0.14070"
+          },
+          "lib/net40/MDriven.Net.Http.dll": {
+            "assemblyVersion": "7.0.0.14070",
+            "fileVersion": "7.0.0.14070"
           }
         }
       },
@@ -1298,6 +1319,13 @@
       "sha512": "sha512-6uxsQw2UXrt82VQAWC2td3oBSJjUZ3P4u4DliagB8wf67KsU53V8sW9xwdF+IwZOOZFR0TCZuv/YKZ2BlrfAag==",
       "path": "bouncycastle.netcore/1.8.5",
       "hashPath": "bouncycastle.netcore.1.8.5.nupkg.sha512"
+    },
+    "EcoCore/7.0.0.14070": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DuNC4b/GsGNCJlcDa53D1ExarcC6gytJ8ZqdKEoAlyJmeYL3hI6Nu2SFQ1l9510kAth0vQmCuEbY/hD5qgS2sA==",
+      "path": "ecocore/7.0.0.14070",
+      "hashPath": "ecocore.7.0.0.14070.nupkg.sha512"
     },
     "EntityFramework/6.4.4": {
       "type": "package",

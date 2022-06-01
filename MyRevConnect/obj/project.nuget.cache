@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Me7FhFAV0v50IRSgXdeezeRAL8BN6mVOPmEaH8yY2Ukxh8Iz1ZxbcFz/uKfJq+1SulvPdfPvmZUpni5INehpPg==",
+  "dgSpecHash": "uWSSxtyjxJs6vIyGncPDDDv0u/a2VyV3NpZa+cT/UyzHYodM+lKuuwMRc0c9+sdQ5ee/NR1eTejQXwevv8/RaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\MyRevConnect.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian Keener\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\Brian Keener\\.nuget\\packages\\ecocore\\7.0.0.14070\\ecocore.7.0.0.14070.nupkg.sha512",
     "C:\\Users\\Brian Keener\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Brian Keener\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Brian Keener\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -141,6 +142,16 @@
     "C:\\Users\\Brian Keener\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EcoCore 7.0.0.14070' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EcoCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
