@@ -24,7 +24,6 @@ namespace MyRevConnect.API
             _logger = logger;
             _context = context;
             _config = config;
-            
         }
 
         [HttpGet]
@@ -38,6 +37,8 @@ namespace MyRevConnect.API
         {
             return _context.timedEmails.FirstOrDefault(x => x.ipAddress == ipAddress);
         }
+        // this route is only for the thread to make requests to so the system
+        // can check all the emails
         [HttpGet]
         [Route("checkstatus")]
         public void CheckEmails()

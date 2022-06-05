@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wCwkD56v54aUAiwEFfUu7kx5bxdM/F36iP1VlwnY3G8=",
+  "Hash": "9zGa48qy5FfificQ7084FKNW8/UV1LyK4mdjzLIUnHM=",
   "Source": "MyRevConnect",
   "BasePath": "_content/MyRevConnect",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\wwwroot\\js\\pixelcanvas.js",
+      "SourceId": "MyRevConnect",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\wwwroot\\",
+      "BasePath": "_content/MyRevConnect",
+      "RelativePath": "js/pixelcanvas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pixelcanvas.js"
     },
     {
       "Identity": "C:\\Users\\Brian Keener\\Desktop\\MyRev\\feature_storehouse\\MyRevConnect\\wwwroot\\js\\site.js",

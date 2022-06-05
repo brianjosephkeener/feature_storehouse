@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Brian Keener\Desktop\MyRev\feature_storehouse\MyRevConnect
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Features/Pixel_Canvas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZXNcUGl4ZWxfQ2FudmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Brian Keener/Desktop/MyRev/feature_storehouse/MyRevConnect/Views/Features/Timed_Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZXNcVGltZWRfRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
