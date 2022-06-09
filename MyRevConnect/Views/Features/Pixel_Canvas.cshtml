@@ -1,9 +1,12 @@
 ﻿<h1>Pixel Canvas Feature</h1>
 
+<div class="pixel-container">
     @for (int i = 0; i < ViewBag.Pixels.Count; i++)
     {
-        <h1>@ViewBag.Pixels[i].color</h1>
+            <div class="pixel" style=" background-color : @ViewBag.Pixels[i].color" onclick="selectPixel(this)"></div>
     }
+</div>
 
-<canvas>
-</canvas>
+
+<link rel="stylesheet" href="~/css/pixelcanvas.css" asp-append-version="true" />
+<script src="~/js/pixelcanvas.js" asp-append-version="true"></script>
