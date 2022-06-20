@@ -16,6 +16,17 @@ function selectPixel(obj) {
     }
 }
 
+function selectColor(colorname) {
+    document.getElementById("color-indicator").innerHTML = colorname;
+}
+
+function changePixel() {
+    let selectedpixels = document.getElementsByClassName('selected-pixel');
+    console.log(selectedpixels[0].style.backgroundColor);
+    selectedpixels[0].style.backgroundColor = document.getElementById("color-indicator").innerHTML;
+    console.log(selectedpixels[0].style.backgroundColor);
+}
+
 
 function invertColor(hex) {
     if (hex.indexOf('#') === 0) {

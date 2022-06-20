@@ -6,7 +6,24 @@
             <div class="pixel" style=" background-color : @ViewBag.Pixels[i].color" onclick="selectPixel(this)"></div>
     }
 </div>
+<div class="brush-color-container">
+    <div id="red-tile" onclick="selectColor(`red`)"></div>
+    <div id="blue-tile" onclick="selectColor(`blue`)"></div>
+    <div id="black-tile" onclick="selectColor(`black`)"></div>
+    <div id="white-tile" onclick="selectColor(`white`)"></div>
+    <div id="yellow-tile" onclick="selectColor(`yellow`)"></div>
+    <div id="pink-tile" onclick="selectColor(`pink`)"></div>
+    <div id="orange-tile" onclick="selectColor(`orange`)"></div>
+    <div id="purple-tile" onclick="selectColor(`purple`)"></div>
+    <div id="brown-tile" onclick="selectColor(`brown`)"></div>
+    <div id="gray-tile" onclick="selectColor(`gray`)"></div>
+</div>
 
+<div>
+    <h2>Currently Selected Color:</h2>
+    <h3 id="color-indicator">---</h3>
+    <button onclick="changePixel()">--* Change selected pixel w/ selected color *--</button>
+</div>
 
 <link rel="stylesheet" href="~/css/pixelcanvas.css" asp-append-version="true" />
 <script src="~/js/pixelcanvas.js" asp-append-version="true"></script>

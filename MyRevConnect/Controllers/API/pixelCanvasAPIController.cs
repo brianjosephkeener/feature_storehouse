@@ -31,6 +31,9 @@ namespace MyRevConnect.API
         {
             return _context.pixels.ToList();
         }
+        [HttpPost]
+        [Route("{ipAddress}")]
+
         [HttpGet]
         [Route("{ipAddress}")]
         public ActionResult<timedEmail> GetEmailByIp(string ipAddress)
