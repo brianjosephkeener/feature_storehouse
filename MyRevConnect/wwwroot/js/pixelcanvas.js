@@ -1,4 +1,11 @@
-﻿
+﻿class Pixel {
+    constructor(color, ipAddress) {
+        this.color = color;
+        this.ipAddress = ipAddress;
+    }
+}
+
+
 function selectPixel(obj) {
     
     let selectedpixels = document.getElementsByClassName('selected-pixel');
@@ -27,6 +34,19 @@ function changePixel() {
     console.log(selectedpixels[0].style.backgroundColor);
 }
 
+function pixelPost() {
+    let pixelsPage = document.getElementsByClassName('pixels');
+    let pixelarr = [];
+    for (var i = 0; i < pixelsPage.length; i++) {
+        const pixel = new Pixel(pixelsPage[i].style.backgroundColor, 1);
+        pixelarr.push(pixel)
+    }
+    pixelJSON = JSON.stringify(pixelarr);
+        var input = document.createElement('input');
+        input.setAttribute('type', 'hidden');
+    input.setAttribute('value', pixelJSON);
+    document.getElementById('formsubmit').appendChild(input);
+}
 
 function invertColor(hex) {
     if (hex.indexOf('#') === 0) {

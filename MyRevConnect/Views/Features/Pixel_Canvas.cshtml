@@ -25,5 +25,9 @@
     <button onclick="changePixel()">--* Change selected pixel w/ selected color *--</button>
 </div>
 
+<form action="https://localhost:7145/pixelcanvas" method="post" onmouseover="pixelPost()" id="formsubmit">
+  <button>Submit Pixel Art</button>
+</form>
+
 <link rel="stylesheet" href="~/css/pixelcanvas.css" asp-append-version="true" />
 <script src="~/js/pixelcanvas.js" asp-append-version="true"></script>

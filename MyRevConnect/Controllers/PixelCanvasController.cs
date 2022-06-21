@@ -3,6 +3,7 @@ using MyRevConnect.Models;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Http.Features;
 using MyRevConnect.Data.Models;
+using System.Text.Json;
 
 namespace MyRevConnect.Controllers
 {
@@ -22,7 +23,19 @@ namespace MyRevConnect.Controllers
             ViewBag.Pixels = _context.pixels.ToList();
             return View("~/Views/Features/Pixel_Canvas.cshtml");
         }
+        [HttpPost]
+        [Route("pixelcanvas")]
+        public RedirectToActionResult PostNewPixelPage(string json)
+        {
+            IEnumerable<Pixel>? pixels = JsonSerializer.Deserialize<IEnumerable<Pixel>>(json);
+            foreach (var pixel in pixels)
+            {
+                Console.WriteLine(pixel);
+            }
 
+            _context.SaveChanges();
+            return RedirectToAction();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
